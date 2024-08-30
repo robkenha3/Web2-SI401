@@ -1,11 +1,10 @@
 #container {
-    background: yellow;
+    /* background: yellow; */
     width: 1500px;
     height: 1500px
 }
 
 #Logo {
-    background-color:#F40808;
     background-image: url('../img/Logo.jpg');
     width:200px;
     height:200px;
@@ -17,28 +16,20 @@
 .header {
     /* display:inline-block; */
     color: #080808;
-    background-color: aqua;
+    background-color: #f40808;
     margin-left: 200px;
     width: 1300px;
     height: 200px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5px;
 }
 
 #menu {
-    background-color: green;
+    background-color: #918d8d;
     height: 80px;
     width: 1500px;
 
-}
-
-.text {
-    background-color: purple;
-    padding-top: 90px;
-    padding-right: 90px;
-    text-align: center;
-}
-
-.button {
-    display: inline-block;
 }
 
 a {
@@ -46,13 +37,16 @@ a {
     text-decoration: none;
     text-align: center;
     width: 200px;
-    height: 80px;
+    height: 60px;
     color: black;
-    border: solid;
+    border: solid, 2px;
     border-radius: 40px;
+    margin-left: 70px;
+    margin-top: 7px;
+    padding-bottom: 3px;
 }
 a:hover {
-    background-color: aquamarine;
+    background-color: #e74545;
 }
 
 #content {
