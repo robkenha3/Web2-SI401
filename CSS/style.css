@@ -25,7 +25,7 @@
 
 #menu {
     background-color: green;
-    height: 50px;
+    height: 80px;
     width: 1500px;
 
 }
@@ -33,11 +33,21 @@
 .text {
     background-color: purple;
     padding-top: 90px;
+    padding-right: 90px;
     text-align: center;
-
 }
 
-.buton {
+.button {
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height: 80px;
     color: black;
-    
+    border: solid;
+    border-radius: 40px;
 }
