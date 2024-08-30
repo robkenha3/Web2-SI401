@@ -51,3 +51,15 @@ a {
     border: solid;
     border-radius: 40px;
 }
+a:hover {
+    background-color: aquamarine;
+}
+
+#content {
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-right: 100px;
+    width: 1300px;
+    background-color: antiquewhite;
+    font-size: 50px;
+}
