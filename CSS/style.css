@@ -1,0 +1,43 @@
+#container {
+    background: yellow;
+    width: 1500px;
+    height: 1500px
+}
+
+#Logo {
+    background-color:#F40808;
+    background-image: url('../img/Logo.jpg');
+    width:200px;
+    height:200px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.header {
+    /* display:inline-block; */
+    color: #080808;
+    background-color: aqua;
+    margin-left: 200px;
+    width: 1300px;
+    height: 200px;
+}
+
+#menu {
+    background-color: green;
+    height: 50px;
+    width: 1500px;
+
+}
+
+.text {
+    background-color: purple;
+    padding-top: 90px;
+    text-align: center;
+
+}
+
+.buton {
+    color: black;
+    
+}
