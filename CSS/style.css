@@ -33,7 +33,7 @@
 
 }
 
-a {
+#menu a {
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -48,22 +48,25 @@ a {
     font-size: 13px;
 }
 
-a:hover {
+#menu a:hover {
     background-color: #e74545;
 }
 
 #indice {
     display: inline-block;
+    position: relative;
     background-color: yellowgreen;
     width: 180px;
     height: 700px;
     margin-bottom: 50px;
+    text-decoration: none;
 }
 
 #indice h3 {
     display: inline-block;
     margin-left: 50px;
     font-size: 20px;
+    
 }
 
 hr {
@@ -71,7 +74,7 @@ hr {
     height: 4px;
 }
 
-#content {
+.content {
     position:relative;
     bottom: 325px;
     display: inline-block;
@@ -80,10 +83,9 @@ hr {
     display: inline-block;
     background: #e74545;
     font-size: 50px;
-
 }
 
-#content h3 {
+.content h3 {
     margin-left: 30px;
     background-color: bisque;
     font-size: 50px;
