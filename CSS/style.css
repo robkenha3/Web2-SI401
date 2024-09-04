@@ -1,4 +1,4 @@
-#container {
+#container1 {
     /* background: yellow; */
     width: 1500px;
     height: 1500px
@@ -26,6 +26,7 @@
 }
 
 #menu {
+    display: inline-block;
     background-color: #918d8d;
     height: 80px;
     width: 1500px;
@@ -39,7 +40,7 @@ a {
     width: 120px;
     height: 40px;
     color: black;
-    border: solid, 2px;
+    border: solid 2px;
     border-radius: 40px;
     margin-left: 140px;
     margin-top: 13px;
@@ -51,15 +52,6 @@ a:hover {
     background-color: #e74545;
 }
 
-#content {
-    margin-left: 50px;
-    margin-top: 50px;
-    padding-right: 100px;
-    width: 1300px;
-    background-color: antiquewhite;
-    font-size: 50px;
-}
-
 #indice {
     display: inline-block;
     background-color: yellowgreen;
@@ -68,7 +60,8 @@ a:hover {
     margin-bottom: 50px;
 }
 
-h3 {
+#indice h3 {
+    display: inline-block;
     margin-left: 50px;
     font-size: 20px;
 }
@@ -76,4 +69,22 @@ h3 {
 hr {
     background-color: black;
     height: 4px;
+}
+
+#content {
+    position:relative;
+    bottom: 325px;
+    display: inline-block;
+    width: 1320px;
+    height: 700px;
+    display: inline-block;
+    background: #e74545;
+    font-size: 50px;
+
+}
+
+#content h3 {
+    margin-left: 30px;
+    background-color: bisque;
+    font-size: 50px;
 }
