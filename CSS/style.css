@@ -1,7 +1,7 @@
 #container1 {
     /* background: yellow; */
     width: 1500px;
-    height: 1500px
+    height: 1500px;
 }
 
 #Logo {
@@ -75,18 +75,37 @@ hr {
 }
 
 .content {
-    position:relative;
-    bottom: 325px;
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    /* bottom: 325px; */
     display: inline-block;
     width: 1320px;
     height: 700px;
     display: inline-block;
-    background: #e74545;
-    font-size: 50px;
+    /* background: #e74545; */
+    
 }
 
 .content h3 {
-    margin-left: 30px;
-    background-color: bisque;
+    margin-left: 70px;
+    /* background-color: bisque; */
     font-size: 50px;
+}
+
+.content ul {
+    font-size: 25px;
+    margin-left: 70px;
+}   
+
+.content a {
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    background-color: rgb(21, 255, 0);
+    padding: 20px;
+    border-radius: 30px;
+    margin-left: 90px;
+    font-size: 20px;
 }
