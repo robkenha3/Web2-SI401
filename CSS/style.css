@@ -105,14 +105,14 @@ hr {
     display: inline-block;
     width: 1320px;
     height: 1300px;
-    display: inline-block;
     /* background: #e74545; */
+    border: 3px solid black;
     
 }
 
 .content h3 {
     margin-left: 70px;
-    /* background-color: bisque; */
+    background-color: bisque;
     font-size: 50px;
 }
 
@@ -121,7 +121,7 @@ hr {
     margin-left: 70px;
 }   
 
-.content a {
+/* .content a {
     position: relative;
     top: 30px;
     text-decoration: none;
@@ -130,4 +130,97 @@ hr {
     border-radius: 30px;
     margin-left: 90px;
     font-size: 20px;
+} */
+
+.b1 {
+    display:block;
+    border:3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url("../img/web.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+}
+
+.b1:hover {
+    opacity: 0.5;
+}
+.b2 {
+    display:block;
+    border:3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url("../img/html5.png");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+}
+
+.b2:hover {
+    opacity: 0.5;
+}
+
+.b3 {
+    display:block;
+    border:3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url("../img/css.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+}
+
+.b3:hover {
+    opacity: 0.5;
+}
+
+.b4 {
+    display:block;
+    border:3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url("../img/javascript.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+}
+
+.b4:hover {
+    opacity: 0.5;
+}
+
+.b5 {
+    display:block;
+    border:3px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url("../img/php.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+}
+
+.b5:hover {
+    opacity: 0.5;
+}
+
+#grid-container {
+    display: grid;
+    margin-left: 150px;
+    margin-top: 150px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 80px;
+}
+
+.grid-txt {
+    margin-top: 45px;
+    margin-left: 60px;
 }
