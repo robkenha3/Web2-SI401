@@ -77,23 +77,66 @@
 #indice {
     display: inline-block;
     position: relative;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     width: 180px;
     height: 1300px;
     margin-bottom: 50px;
     text-decoration: none;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
-#indice h3 {
-    display: inline-block;
-    margin-left: 50px;
+#indice a {
+    display: block;
+    /* position:relative; */
+    /* top: 10px; */
+    /* right: 50px; */
+    height: 100px;
     font-size: 20px;
-    
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    text-decoration: none;
+    text-align: center;
+    /* margin-top: 30px; */
+    /* background-color: antiquewhite; */
+}
+.web {
+    background-image: url("../img/web.jpg");
+    background-size: 180px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-hr {
-    background-color: black;
-    height: 4px;
+.html {
+    margin-top: 30px;
+    background-image: url("../img/html5.png");
+    background-size: 180px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.css {
+    margin-top: 30px;
+    background-image: url("../img/css.jpg");
+    background-size: 180px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.javascript {
+    margin-top: 30px;
+    background-image: url("../img/javascript.jpg");
+    background-size: 180px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.php {
+    margin-top: 30px;
+    background-image: url("../img/php.jpg");
+    background-size: 180px 110px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .content {
