@@ -5,15 +5,21 @@
 }
 
 #header {
+    position: relative;
     width: 1500px;
     height: 130px;
+    /* background-repeat: no-repeat;
+    background-position: left;
+    background-size: 130px; */
     border: 3px solid black;
     background-color: #e74545;
+    overflow: hidden;
     /* z-index: 0; */
 }
 
 #Logo {
     display: inline-block;
+    position: relative;
     background-image: url('../img/Logo.jpg');
     background-size:cover;
     background-repeat: no-repeat;
@@ -23,6 +29,7 @@
     width: 130px;
     height: 130px;
     border-right: 3px solid black;
+    z-index: 2;
     
 }
 
@@ -41,6 +48,41 @@
     font-size: 40px;
     /* padding-top: 40px; */
     /* border: 10px solid black; */
+}
+
+.pikachu {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    animation: pika-animacao 5s infinite linear;
+    z-index: 1;
+}
+
+#red {
+    position: absolute;
+    bottom: 0;
+    width: 70px;
+    animation: red-animacao 5s infinite linear;
+}
+
+@keyframes pika-animacao {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes red-animacao {
+    from {
+        right: -70px;
+    }
+
+    to {
+        right: 100%;
+    }
 }
 
 #menu {
@@ -76,12 +118,12 @@
 
 #indice {
     display: inline-block;
-    position: relative;
+    /* position: relative;   */
     /* background-color: yellowgreen; */
     width: 180px;
     height: 1300px;
-    margin-bottom: 50px;
-    text-decoration: none;
+    /* margin-bottom: 50px; */
+    /* text-decoration: none; */
     border-top: 3px solid black;
     border-left: 3px solid black;
     border-bottom: 3px solid black;
@@ -95,7 +137,7 @@
     height: 100px;
     font-size: 20px;
     border-bottom: 3px solid black;
-    border-top: 3px solid black;
+    /* border-top: 3px solid black; */
     text-decoration: none;
     text-align: center;
     /* margin-top: 30px; */
@@ -109,7 +151,6 @@
 }
 
 .html {
-    margin-top: 30px;
     background-image: url("../img/html5.png");
     background-size: 180px 110px;
     background-repeat: no-repeat;
@@ -117,7 +158,6 @@
 }
 
 .css {
-    margin-top: 30px;
     background-image: url("../img/css.jpg");
     background-size: 180px 110px;
     background-repeat: no-repeat;
@@ -125,14 +165,12 @@
 }
 
 .javascript {
-    margin-top: 30px;
     background-image: url("../img/javascript.jpg");
     background-size: 180px 110px;
     background-repeat: no-repeat;
     background-position: center;
 }
 .php {
-    margin-top: 30px;
     background-image: url("../img/php.jpg");
     background-size: 180px 110px;
     background-repeat: no-repeat;
@@ -149,13 +187,20 @@
     width: 1320px;
     height: 1300px;
     /* background: #e74545; */
-    border: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     
+}
+
+#content ul{
+    margin-left: 50px;
+    font-size: 35px;
 }
 
 .content h3 {
     margin-left: 70px;
-    background-color: bisque;
+    /* background-color: bisque; */
     font-size: 50px;
 }
 
@@ -164,16 +209,39 @@
     margin-left: 70px;
 }   
 
-/* .content a {
+.botao-completo {
     position: relative;
-    top: 30px;
+    bottom: 22px;
     text-decoration: none;
-    background-color: rgb(21, 255, 0);
-    padding: 20px;
+    background-color: rgb(233, 43, 81);
+    padding: 15px;
     border-radius: 30px;
     margin-left: 90px;
     font-size: 20px;
-} */
+    color:aliceblue;
+    
+}
+
+table {
+    width: 98%;
+    border-collapse: collapse;
+    margin-left: 1%;
+}
+
+#table2 {
+    margin-top: 100px;
+}
+
+td, th {
+    font-size: 26px;
+    /* text-align: center; */
+    border: 2px solid black;
+
+}
+
+.td3 {
+    padding-top: 40px;
+}
 
 .b1 {
     display:block;
@@ -190,6 +258,7 @@
 .b1:hover {
     opacity: 0.5;
 }
+
 .b2 {
     display:block;
     border:3px solid black;
