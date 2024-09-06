@@ -206,7 +206,7 @@
 
 .content ul {
     font-size: 25px;
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }   
 
 .botao-completo {
@@ -223,6 +223,7 @@
 }
 
 table {
+    position: relative;
     width: 98%;
     border-collapse: collapse;
     margin-left: 1%;
@@ -233,10 +234,10 @@ table {
 }
 
 td, th {
+    position: relative;
     font-size: 26px;
     /* text-align: center; */
     border: 2px solid black;
-
 }
 
 .td3 {
