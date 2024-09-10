@@ -229,8 +229,8 @@ table {
     margin-left: 1%;
 }
 
-#table2 {
-    margin-top: 100px;
+.table2 {
+    margin-top: 80px;
 }
 
 td, th {
